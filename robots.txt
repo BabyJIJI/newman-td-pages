@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://newman-td.com/sitemap.xml
+Sitemap: https://newman-tech-design.com/sitemap.xml
