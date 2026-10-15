@@ -3,20 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>IoT・AI導入とDX支援｜Newman Tech Design（ニューマン テックデザイン）</title>
-<meta name="description" content="京都府城陽市を拠点に、IoTセンサーとAIカメラで現場のデータを集め、クラウドで見える化・自動化するDXを支援します。城陽・宇治・京田辺・八幡・久御山・京都市の個人事業主・中小企業さまが対象です。自動運転・顔認証システムの開発経験を活かし、身近な相談相手としてDXを進めます。">
+<title>IoT・AI導入とDX支援｜Newman Tech Design（京都府城陽市）</title>
+<meta name="description" content="個人事業主・中小企業向けに、IoTセンサーとAIカメラで来店数や設備の状態をデータ化し、クラウドで見える化・自動化するDXを支援します。京都府城陽市を拠点に、宇治・京田辺・八幡・久御山・京都市に対応。">
 <link rel="canonical" href="https://newman-tech-design.com/">
 <meta name="theme-color" content="#F4F6F3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#121A21" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ja_JP">
 <meta property="og:site_name" content="Newman Tech Design">
 <meta property="og:title" content="IoT・AI導入とDX支援｜Newman Tech Design">
-<meta property="og:description" content="城陽を拠点に、IoTとAIで現場のデータを価値に変えるDXを支援します。自動運転・顔認証・人数カウントシステムの開発経験を活かした技術設計。">
+<meta property="og:description" content="個人事業主・中小企業向けに、IoTとAIで現場のデータを価値に変えるDXを支援します。京都府城陽市を拠点に、京都市・宇治・京田辺・八幡・久御山に対応。">
 <meta property="og:url" content="https://newman-tech-design.com/">
 <meta property="og:image" content="https://newman-tech-design.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Newman Tech Design｜現場を、IoTとAIで新しくする。個人事業主・中小企業のDX支援">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,34 +31,123 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Newman Tech Design",
-  "alternateName": ["ニューマン テックデザイン", "Newman-TD"],
-  "url": "https://newman-tech-design.com/",
-  "logo": "https://newman-tech-design.com/favicon.svg",
-  "description": "京都府城陽市を拠点とした、個人事業主・中小企業向けのIoT・AI導入、クラウドシステム設計、DX支援",
-  "email": "info@newman-tech-design.com",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "城陽市",
-    "addressRegion": "京都府",
-    "addressCountry": "JP"
-  },
-  "areaServed": [
-    {"@type": "City", "name": "城陽市"},
-    {"@type": "City", "name": "宇治市"},
-    {"@type": "City", "name": "京田辺市"},
-    {"@type": "City", "name": "八幡市"},
-    {"@type": "City", "name": "京都市"},
-    {"@type": "AdministrativeArea", "name": "久御山町"}
-  ],
-  "knowsAbout": ["IoT", "AI", "画像認識", "DX", "クラウドシステム設計", "AWS", "Google Cloud", "Cloudflare", "来店者数カウント", "温度監視", "稼働監視", "人数カウント", "顔認証", "自動運転", "ESP32"],
-  "makesOffer": [
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "店舗のAIカメラ活用（来店者数カウント・混雑の見える化）"}},
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "店舗の設備・環境の見える化（温度監視・電力）"}},
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "DXの相談・導入計画づくり"}},
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "クラウドシステムの設計・構築"}},
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "工場・倉庫のIoT化"}}
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://newman-tech-design.com/#website",
+      "url": "https://newman-tech-design.com/",
+      "name": "Newman Tech Design",
+      "inLanguage": "ja",
+      "publisher": {
+        "@id": "https://newman-tech-design.com/#business"
+      }
+    },
+    {
+      "@type": "ProfessionalService",
+      "name": "Newman Tech Design",
+      "alternateName": [
+        "ニューマン テックデザイン",
+        "Newman-TD"
+      ],
+      "url": "https://newman-tech-design.com/",
+      "logo": "https://newman-tech-design.com/apple-touch-icon.png",
+      "description": "京都府城陽市を拠点とした、個人事業主・中小企業向けのIoT・AI導入、クラウドシステム設計、DX支援",
+      "email": "info@newman-tech-design.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "城陽市",
+        "addressRegion": "京都府",
+        "addressCountry": "JP"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "城陽市"
+        },
+        {
+          "@type": "City",
+          "name": "宇治市"
+        },
+        {
+          "@type": "City",
+          "name": "京田辺市"
+        },
+        {
+          "@type": "City",
+          "name": "八幡市"
+        },
+        {
+          "@type": "City",
+          "name": "京都市"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "久御山町"
+        }
+      ],
+      "knowsAbout": [
+        "IoT",
+        "AI",
+        "画像認識",
+        "DX",
+        "クラウドシステム設計",
+        "AWS",
+        "Google Cloud",
+        "Cloudflare",
+        "来店者数カウント",
+        "温度監視",
+        "稼働監視",
+        "人数カウント",
+        "顔認証",
+        "自動運転",
+        "ESP32"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "店舗のAIカメラ活用（来店者数カウント・混雑の見える化）"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "店舗の設備・環境の見える化（温度監視・電力）"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "DXの相談・導入計画づくり"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "クラウドシステムの設計・構築"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "工場・倉庫のIoT化"
+          }
+        }
+      ],
+      "@id": "https://newman-tech-design.com/#business",
+      "image": "https://newman-tech-design.com/og.png",
+      "founder": {
+        "@type": "Person",
+        "@id": "https://newman-tech-design.com/about/#person",
+        "name": "岡部 泰祐",
+        "url": "https://newman-tech-design.com/about/"
+      }
+    }
   ]
 }
 </script>
