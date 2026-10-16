@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" font-family="'Zen Kaku Gothic New','Hiragino Sans','Noto Sans CJK JP','Yu Gothic',sans-serif">
+<rect width="960" height="420" rx="20" fill="#F4F6F3"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#A62B54"/></marker></defs>
+<g fill="#17222E" font-size="15" font-weight="700" text-anchor="middle">
+<text x="150" y="44">店頭・受付</text><text x="480" y="44">中継サーバー（Cloudflare Workers など）</text><text x="820" y="44">AI API</text></g>
+<rect x="40" y="70" width="220" height="300" rx="16" fill="#fff" stroke="#CFD7D1" stroke-width="2"/>
+<g font-size="15" fill="#17222E" text-anchor="middle">
+<rect x="55" y="95" width="190" height="56" rx="10" fill="#E9EEE9"/><text x="150" y="129">マイク（INMP441）</text>
+<rect x="55" y="182" width="190" height="56" rx="10" fill="#17222E"/><text x="150" y="216" fill="#F4F6F3" font-weight="700">ESP32-S3</text>
+<rect x="55" y="269" width="190" height="56" rx="10" fill="#E9EEE9"/><text x="150" y="303">スピーカー（MAX98357A）</text></g>
+<path d="M150 151v28" stroke="#4B7746" stroke-width="3" marker-end="url(#ar)"/><path d="M150 238v28" stroke="#4B7746" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="340" y="70" width="280" height="300" rx="16" fill="#fff" stroke="#A62B54" stroke-width="2"/>
+<g font-size="14.5" fill="#17222E">
+<text x="364" y="112" font-weight="700">① 音声を受け取る（WAV）</text>
+<text x="364" y="152" font-weight="700">② 文字起こしを依頼</text>
+<text x="364" y="192" font-weight="700">③ 店舗情報を添えて回答を依頼</text>
+<text x="364" y="232" font-weight="700">④ 回答を音声に変換</text>
+<text x="364" y="272" font-weight="700">⑤ 音声を端末へ返す</text>
+<text x="364" y="322" fill="#56656F" font-size="13">APIキー・店舗情報・利用上限は</text>
+<text x="364" y="342" fill="#56656F" font-size="13">ここで管理（端末には置かない）</text></g>
+<rect x="700" y="70" width="220" height="300" rx="16" fill="#fff" stroke="#CFD7D1" stroke-width="2"/>
+<g font-size="15" fill="#17222E" text-anchor="middle">
+<rect x="725" y="95" width="170" height="56" rx="10" fill="#E9EEE9"/><text x="810" y="129">音声認識</text>
+<rect x="725" y="182" width="170" height="56" rx="10" fill="#E9EEE9"/><text x="810" y="216">対話（ChatGPT）</text>
+<rect x="725" y="269" width="170" height="56" rx="10" fill="#E9EEE9"/><text x="810" y="303">音声合成</text></g>
+<path d="M262 200H334" stroke="#A62B54" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M336 236H266" stroke="#A62B54" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#ar)"/>
+<path d="M622 148C660 148 680 123 718 123" stroke="#A62B54" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<path d="M622 188C660 188 680 210 718 210" stroke="#A62B54" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+<path d="M622 228C660 228 680 297 718 297" stroke="#A62B54" stroke-width="2.5" fill="none" marker-end="url(#ar)"/>
+
+</svg>

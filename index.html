@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>中小企業のDX支援・IoT/AI導入｜Newman Tech Design（京都府城陽市）</title>
-<meta name="description" content="中小企業・個人事業主のDX支援。IoTセンサーとAIカメラで来店数や設備の状態をデータ化し、クラウドで見える化・自動化します。京都府城陽市を拠点に、宇治・京田辺・八幡・久御山・京都市に対応。補助金を活用した導入計画もご相談ください。">
+<meta name="description" content="中小企業・個人事業主のDX支援。IoTセンサーとAIカメラで来店数や設備の状態をデータ化し、クラウドで見える化・自動化します。初回相談無料。京都府城陽市を拠点に、宇治・京田辺・八幡・久御山・京都市に対応。">
 <link rel="canonical" href="https://newman-tech-design.com/">
 <meta name="theme-color" content="#F4F6F3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#121A21" media="(prefers-color-scheme: dark)">
@@ -107,6 +107,17 @@
       "makesOffer": [
         {
           "@type": "Offer",
+          "name": "初回相談",
+          "price": "0",
+          "priceCurrency": "JPY",
+          "url": "https://newman-tech-design.com/contact/",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "IoT・AI・DXの初回相談（無料）"
+          }
+        },
+        {
+          "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
             "name": "中小企業・個人事業主のDX支援",
@@ -150,7 +161,10 @@
         }
       ],
       "@id": "https://newman-tech-design.com/#business",
-      "image": "https://newman-tech-design.com/og.png"
+      "image": "https://newman-tech-design.com/og.png",
+      "founder": {
+        "@id": "https://newman-tech-design.com/about/#person"
+      }
     }
   ]
 }
@@ -160,6 +174,14 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "相談に費用はかかりますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "初回のご相談は無料です。お困りごとを伺ったうえで進め方とお見積りをご提案し、内容にご納得いただいてからご依頼いただく流れです。"
+      }
+    },
     {
       "@type": "Question",
       "name": "DXは何から始めればいいですか？",
@@ -284,6 +306,7 @@ a{color:inherit}
 .eyebrow{display:inline-block;margin:0 0 16px;padding:4px 14px;border-radius:999px;background:var(--plum-soft);color:var(--plum);font-weight:700;font-size:.9rem;letter-spacing:.04em}
 .lead{font-size:1.08rem;color:var(--muted);max-width:34em;margin:0 0 32px}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center}
+.cta-note{margin:14px 0 0;font-size:.9rem;color:var(--muted)}
 .btn{
   display:inline-block;padding:14px 26px;border-radius:999px;
   background:var(--plum);color:var(--on-plum);text-decoration:none;font-weight:700;
@@ -368,6 +391,10 @@ section{padding:72px 0;border-top:1px solid var(--line)}
 /* articles */
 .articles{margin-left:272px}
 .article{display:block;border:1px solid var(--line);border-radius:12px;padding:24px;background:var(--paper-2);max-width:40rem}
+.article{text-decoration:none;color:inherit;transition:border-color .2s}
+.article:hover{border-color:var(--plum)}
+.article img{display:block;width:100%;height:auto;border-radius:8px;margin:0 0 16px}
+.article .read{display:inline-block;margin-top:10px;color:var(--plum);font-weight:700;font-size:.92rem}
 .article .tag{font-size:.8rem;color:var(--tea);font-weight:700}
 .article h3{margin:4px 0 8px;font-size:1.1rem}
 .article p{margin:0;color:var(--muted);font-size:.95rem}
@@ -420,7 +447,7 @@ section{padding:72px 0;border-top:1px solid var(--line)}
       <a href="/about/">開発実績</a>
       <a href="#area">対応エリア</a>
       <a href="#faq">よくある質問</a>
-      <a class="nav-cta" href="#contact">相談する</a>
+      <a class="nav-cta" href="/contact/">無料相談</a>
     </nav>
   </div>
 </header>
@@ -433,9 +460,10 @@ section{padding:72px 0;border-top:1px solid var(--line)}
         <h1><span class="line">現場を、</span><span class="line">IoTとAIで</span><span class="line">新しくする。</span></h1>
         <p class="lead">京都府城陽市を拠点に、IoTセンサーとAIカメラで現場のデータを集め、クラウドで見える化・自動化して、新しい価値をつくるDXを支援しています。主な対象は、個人事業主・中小企業の皆さま。自動運転や顔認証システムの開発で培った技術を、身近な相談相手として提供します。<a class="lead-link" href="/about/">開発実績を見る →</a></p>
         <div class="cta-row">
-          <a class="btn" href="#contact">相談内容を送る</a>
+          <a class="btn" href="/contact/">無料で相談する</a>
           <a class="text-link" href="#services">サービス内容を見る</a>
         </div>
+        <p class="cta-note">初回相談は無料です。お問い合わせには2営業日以内にご返信します。</p>
       </div>
       <svg class="hero-art" viewBox="0 0 400 380" role="img" aria-label="店舗の冷蔵庫の温度センサー・AIカメラ・電力センサーのデータをエッジAIで解析し、クラウドに集めてダッシュボードでの見える化や通知に活かす、IoTとAIによるDXの仕組みの図">
         <!-- base links -->
@@ -556,7 +584,7 @@ section{padding:72px 0;border-top:1px solid var(--line)}
         <p>いきなり大きく導入せず、効果を確かめながら広げます。</p>
       </div>
       <ol class="steps">
-        <li><h3>お話を伺う</h3><p>困りごとや現在の業務の流れを、メールやオンラインで伺います。</p></li>
+        <li><h3>お話を伺う（無料）</h3><p>困りごとや現在の業務の流れを、フォームやオンラインで伺います。初回のご相談は無料です。</p></li>
         <li><h3>現場を確認する</h3><p>設備や作業の様子を見て、取れるデータと方法を整理します。</p></li>
         <li><h3>小さく試す</h3><p>センサーやカメラを少数設置し、実際のデータで効果を確かめます。</p></li>
         <li><h3>本導入と運用</h3><p>効果が見えた範囲から広げ、運用の仕組みまで整えます。</p></li>
@@ -594,14 +622,16 @@ section{padding:72px 0;border-top:1px solid var(--line)}
     <div class="wrap">
       <div class="sec-head">
         <h2 id="articles-title">技術記事</h2>
-        <p>試作や検証の記録を公開しています。</p>
+        <p>IoT・AIを現場で使うための作り方や設計の考え方を公開しています。</p>
       </div>
       <div class="articles">
-        <div class="article">
-          <span class="tag">近日公開</span>
+        <a class="article" href="/articles/esp32-voice-concierge/">
+          <img src="/articles/esp32-voice-concierge/cover.png" alt="" width="1200" height="630" loading="lazy">
+          <span class="tag">技術記事｜2026.10.16</span>
           <h3>ESP32×ChatGPTで音声コンシェルジュを作る</h3>
-          <p>数千円のマイコンとAI APIで、話しかけると音声で答える受付端末を作ります。配線からコード、実運用での設計まで解説します。</p>
-        </div>
+          <p>数千円のマイコンとAI APIで、話しかけると音声で答える受付端末を作ります。部品と配線、処理の流れ、店舗で使うための設計ポイントまで解説します。</p>
+          <span class="read">記事を読む →</span>
+        </a>
       </div>
     </div>
   </section>
@@ -612,6 +642,10 @@ section{padding:72px 0;border-top:1px solid var(--line)}
         <h2 id="faq-title">よくある質問</h2>
       </div>
       <div class="faq">
+        <details>
+          <summary>相談に費用はかかりますか？</summary>
+          <p>初回のご相談は無料です。お困りごとを伺ったうえで進め方とお見積りをご提案し、内容にご納得いただいてからご依頼いただく流れです。</p>
+        </details>
         <details>
           <summary>DXは何から始めればいいですか？</summary>
           <p>まずは「毎日手作業でやっていること」「勘に頼っていること」を一つ選び、データにするところから始めます。たとえば冷蔵庫の温度記録の自動化や、来店者数のカウントなど、数万円規模から試せる取り組みをご提案します。</p>
@@ -643,13 +677,13 @@ section{padding:72px 0;border-top:1px solid var(--line)}
   <section id="contact" class="contact" aria-labelledby="contact-title">
     <div class="wrap">
       <div class="sec-head">
-        <h2 id="contact-title">ご相談</h2>
+        <h2 id="contact-title">初回相談は無料です</h2>
         <p>まだ構想段階でも構いません。困っていることを一言いただければ、進め方をご提案します。</p>
       </div>
       <div class="contact-box">
-        <p>メールに「会社名・お名前」「ご相談内容」「対象の設備や業務（分かる範囲で）」をお書きください。</p>
-        <a class="btn" href="mailto:info@newman-tech-design.com?subject=%E3%81%94%E7%9B%B8%E8%AB%87%EF%BC%88%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%88%E3%82%8A%EF%BC%89">メールで相談する</a>
-        <span class="mail">info@newman-tech-design.com</span>
+        <p>フォームに「お名前」「ご相談内容」などをご入力ください。内容を確認し、2営業日以内にメールでご返信します。</p>
+        <a class="btn" href="/contact/">無料相談フォームへ</a>
+        <span class="mail">メールでのご相談：info@newman-tech-design.com</span>
       </div>
     </div>
   </section>
@@ -663,7 +697,8 @@ section{padding:72px 0;border-top:1px solid var(--line)}
       <li><a href="/about/">開発実績</a></li>
       <li><a href="/#area">対応エリア</a></li>
       <li><a href="/#faq">よくある質問</a></li>
-      <li><a href="/#contact">相談する</a></li>
+      <li><a href="/contact/">無料相談・お問い合わせ</a></li>
+      <li><a href="/privacy/">プライバシーポリシー</a></li>
     </ul>
     <dl>
       <dt>屋号</dt><dd>Newman Tech Design（ニューマン テックデザイン）</dd>
