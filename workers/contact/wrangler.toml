@@ -1,0 +1,16 @@
+# お問い合わせフォーム受付 Worker（サイトの /api/contact を担当）
+# 受信先アドレスは公開リポジトリに書かず、Cloudflare ダッシュボードで
+# シークレット TO_ADDRESS として登録する。
+name = "newman-contact"
+main = "src/index.js"
+compatibility_date = "2025-10-01"
+
+routes = [
+  { pattern = "newman-tech-design.com/api/contact", zone_name = "newman-tech-design.com" }
+]
+
+[vars]
+FROM_ADDRESS = "contact@newman-tech-design.com"
+
+[[send_email]]
+name = "EMAIL"
